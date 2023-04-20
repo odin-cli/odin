@@ -2,6 +2,12 @@
 
 Create projects by remote templates, local templates,  or public repos
 
+## Install
+
+```shell
+go install github.com/odin-cli/odin/cmd/cli/odin@latest
+```
+
 ## Configure
 
 To start, you need to configure Odin in your terminal. Use the following command:
