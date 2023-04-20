@@ -1,0 +1,11 @@
+apiVersion: v1
+params:
+  - name: package
+
+actions:
+  - action: replace
+    find: github.com/lbernardo/fx-webserver
+    replace: "{{ .package }}"
+  - action: replace
+    find: "${name}"
+    replace: "{{ .name }}"

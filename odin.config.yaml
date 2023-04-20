@@ -1,0 +1,13 @@
+templates:
+  default:
+    local: true
+    path: /home/lbernardo/workspace/odin/examples/golang
+  example:
+    repo: https://github.com/lbernardo/fx-webserver-example
+
+publish:
+  provider: gitlab
+  gitlab_token: XXXXXXXX
+  repo: git@gitlab.com/lbernardo/{{ .name }}
+
+
